@@ -1,0 +1,26 @@
+.container .rightpart{
+    width:20%;
+    /* background-color: blue; */
+    border-right: 3px solid black;
+}
+
+.container .rightpart .username{
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+.username img{
+    height: 50px;
+    width: 50px;
+    
+}
+.username h3 {
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.dash img{
+    width: 100px;
+    height: 100px;
+}
