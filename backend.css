@@ -102,11 +102,23 @@ margin-top: 14px;
     flex-direction: column;
    
 } 
-.letters .post .postsss b{
+.letters .post .postsss h1{
     text-align: center;
-    font-size: larger;
+    /* font-size: larger; */
 }
 
+.letters .post .postsss input{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+}
+.letters .post .postsss textarea{
+    width: 400px;
+}
 .postsss .messblock .downthere{
     display: flex;
 justify-content: flex-end;    
